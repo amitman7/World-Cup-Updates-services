@@ -1,18 +1,15 @@
-# community-led-world-cup-subscription-service
-STOMP server/client protocol project with both **TPC** and **Reactor** server implementaiton
+# World-Cup-Updates-services
+World Cup Community Updates service. The project utilizes a STOMP server-client architecture, with the server employing both **TCP** (Thread Per Client) and **Reactor** implementations in Java, and the client implemented in C++.
 
 ![image](https://github.com/barakshalit/community-led-world-cup-subscription-service/assets/76451972/313f9a9f-d036-42e8-a0c7-845c24ada2fe)
 
 
-
 # General Description
-In this assignment iv'e implemented a ”community-led” world cup update subscription service. Users can subscribe to a game channel and report and receive reports 
-about the game to and from the other subscribed users.
+We developed a "community-led" World Cup update subscription service for this assignment. Users can subscribe to game channels and exchange reports with other subscribed users.
 
-For the above-mentioned purpose, iv'e implemented both a server, which will provide STOMP server services and a client, which a user can use in order to interact with the rest of the users.
-The server will be implemented in Java and will support both Thread-Per-Client (TPC) and the Reactor, choosing which one according to arguments given on startup. The client will be implemented in
-C++ and will hold the required logic as described below. 
-All communication between the clients and the server will be according to STOMP ‘Simple-Text-Oriented-Messaging-Protocol’.
+To achieve this, we created both a server and a client. The server, written in Java, offers STOMP server services and supports both Thread-Per-Client (TPC) and Reactor architectures, selected based on startup arguments. The client, implemented in C++, facilitates user interaction and contains necessary logic. 
+All communication between clients and the server follows the STOMP (Simple Text-Oriented Messaging Protocol) standard.
+
 
 
 # Simple-Text-Oriented-Messaging-Protocol (STOMP)
